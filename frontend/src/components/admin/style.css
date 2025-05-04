@@ -1,0 +1,49 @@
+/* Sidebar Icon Hover Animation */
+.sidebar-icon {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-icon:hover {
+  transform: rotate(360deg);
+}
+
+/* Sidebar Item Hover Effect */
+.sidebar-item {
+  padding: 10px;
+  transition: 0.3s, transform 0.2s;
+}
+
+.sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+/* Sidebar Header Animation */
+.sidebar-title {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-title:hover {
+  transform: scale(1.1);
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.ps-sidebar-container.css-dip3t8 {
+  background-color: transparent !important;
+  z-index: 3 !important;
+}
+
+/* Avatar Glow Effect */
+.sidebar-footer .MuiAvatar-root {
+  transition: box-shadow 0.3s;
+}
+
+.sidebar-footer .MuiAvatar-root:hover {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
